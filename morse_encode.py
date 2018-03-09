@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 
 # construct the Morse dictionary
 alphabet = " ".join("abcdefghijklmnopqrstuvwxyz").split()
-values = ['.-', '-...', '-.-.', '-..', '.', '..-.', '--.', '....', '..', '.---', '-.-', '.-..', '--', '-.', '---', '.--.', '--.-','.-.', '...', ' - ', '..-', '...-', '.--', ' - ..-', ' - .--', ' - -..']
+values = ['.-', '-...', '-.-.', '-..', '.', '..-.', '--.', '....', '..', '.---', '-.-', '.-..', '--', '-.', '---', '.--.', '--.-','.-.', '...', '-', '..-', '...-', '.--', '-..-', '-.--', '--..']
 morse_dict = dict(zip(alphabet, values))
 
 def morse_ecode(word):

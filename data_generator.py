@@ -25,5 +25,9 @@ with open('input_data', 'wb') as ip:
     pickle.dump(input_list, ip)
 with open('output_data', 'wb') as op:
     pickle.dump(output_list, op)
-print(output_list[:2])
-print(input_list[:2])
+print(len(output_list))
+print(len(input_list))
+
+for i in range(len(output_list)):
+    if len(input_list[i]) > 44:
+       print(output_list[i], "   ", input_list[i])
