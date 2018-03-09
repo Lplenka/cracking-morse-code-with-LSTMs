@@ -28,6 +28,5 @@ with open('morse_code_list', 'wb') as fp:
     pickle.dump(l, fp)
 
 
-
 #with open ('outfile', 'rb') as fp:
     #itemlist = pickle.load(fp)

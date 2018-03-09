@@ -14,4 +14,4 @@ def morse_ecode(word):
 
     return morse_code
 
-print(morse_ecode("aardvark"))
+#print(morse_ecode("aardvark"))
