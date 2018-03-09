@@ -21,5 +21,9 @@ def data_gen(n):
         return output_list, input_list
 
 output_list, input_list = data_gen(9)
+with open('input_data', 'wb') as ip:
+    pickle.dump(input_list, ip)
+with open('output_data', 'wb') as op:
+    pickle.dump(output_list, op)
 print(output_list[:2])
 print(input_list[:2])
